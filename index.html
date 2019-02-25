@@ -19,17 +19,59 @@
 						<span class="mdc-list-item__text call">Call 1800 22 7979</span>
 					</li>
 					<li class="mdc-list-item">
-						<span class="mdc-list-item__text">Select Currency:</span>
+						<span class="mdc-list-item__text ">Select Currency:</span>
+						<div class="mdc-select">
+							<i class="mdc-select__dropdown-icon"></i>
+							<select class="mdc-select__native-control">
+								<option value="" disabled selected></option>
+								<option value="grains">
+									Dollar
+								</option>
+								<option value="vegetables">
+									Yen
+								</option>
+								<option value="fruit">
+									Ruble
+								</option>
+							</select>
+							<label class="mdc-floating-label">INR</label>
+							<div class="mdc-line-ripple"></div>
+						</div>
 					</li>
-					<li><button class="mdc-button currency">
+					<!-- <li class="mdc-list-item">
+						<span class="mdc-list-item__text">Select Currency:</span>
+						<div class="mdc-menu mdc-menu-surface" tabindex="-1">
+							<ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+								<li class="mdc-list-item" role="menuitem">
+									<span class="mdc-list-item__text">A Menu Item</span>
+								</li>
+								<li class="mdc-list-item" role="menuitem">
+									<span class="mdc-list-item__text">Another Menu Item</span>
+								</li>
+							</ul>
+						</div> -->
+						<!-- <div class="mui-dropdown">
+							<button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+								Dropdown
+								<span class="mui-caret"></span>
+							</button>
+							<ul class="mui-dropdown__menu">
+								<li><a href="#">Option 1</a></li>
+								<li><a href="#">Option 2</a></li>
+								<li><a href="#">Option 3</a></li>
+								<li><a href="#">Option 4</a></li>
+							</ul>
+						</div> -->
+						<!-- </li> -->
+					<!-- <li><button class="mdc-button currency">
 						<span class="mdc-button__label">inr</span>
 						<i class="material-icons mdc-button__icon" aria-hidden="true">favorite</i>
-					</button></li>
+					</button></li> -->
 					
 				</ul>
 			</section>
 			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
-				<button class="mdc-button sign" >
+				<button class="mdc-button sign">
 					<span class="mdc-button__label">Sign In</span>
 				</button>
 				<button class="mdc-button register" >
@@ -75,7 +117,7 @@
 			<div class="mdc-layout-grid__cell--span-2"></div>
 			<div class="mdc-layout-grid__cell--span-8">
 				<section class="search">
-					<center><input type="text" name="search" placeholder="Where would you like to go?">
+					<center><input type="text" name="search" placeholder="  Where would you like to go?">
 						<button class="mdc-button sign2 ">
 							<span class="mdc-button__label">Let's Go</span>
 						</button>
@@ -89,11 +131,12 @@
 		<div class="content">
 			<div class="mdc-layout-grid">
 				<div class="mdc-layout-grid__inner">
-					<div class="mdc-layout-grid__cell" style="margin-top: 89px;
+					<div class="mdc-layout-grid__cell--span-6" style="margin-top: 200px;
 					margin-left: 200px;">
 					<h1 class="mdc-typography--headline4">Summer Offers</h1>
 					<p class="mdc-typography--subtitle2">Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere.</p>
 				</div>
+				<div class="mdc-layout-grid__cell--span-6"></div>
 			</div>
 		</div>
 	</div>
@@ -198,7 +241,7 @@
 		</div>
 		<div class="mdc-layout-grid__cell--span-3">
 			<div class="mdc-image-list__image-aspect-container">
-				<img class="mdc-image-list__image" src="images/29.jpg" width="300" height="200" style="border-radius: 210px;">
+				<img class="mdc-image-list__image" src="images/29.jpg" width="300" height="200" style="border-radius: 210px; border:  5px solid #ec7e50;">
 			</div>
 		</div>
 		<div class="mdc-layout-grid__cell--span-1">
@@ -224,11 +267,11 @@
 		<div class="mdc-layout-grid__cell--span-3">
 			<div class="mdc-card">
 				<div class="mdc-image-list__image-aspect-container">
-					<img class="mdc-image-list__image" src="images/c1.PNG" width="150" height="100">
+					<img class="mdc-image-list__image" src="images/c1.PNG" width="150" height="100px">
 				</div>
 				<div class="padding">
 					<h5 class="card-title">Andaman Tour Packages</h5>
-					<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+					<p class="card-text"><span class="keyboard_arrow_right t1" >></span>Port Blair<span class="keyboard_arrow_right t1">></span>HaveLock<span class="keyboard_arrow_right t1">></span>Neil Isaland</p>
 					<button class="mdc-button itour1">
 						<span class="mdc-button__label ">VIEW MORE</span>
 					</button>
@@ -241,11 +284,11 @@
 		<div class="mdc-layout-grid__cell--span-3">
 			<div class="mdc-card">
 				<div class="mdc-image-list__image-aspect-container">
-					<img class="mdc-image-list__image" src="images/c2.PNG" width="200" height="150">
+					<img class="mdc-image-list__image" src="images/c2.PNG" width="200" height="100px">
 				</div>
 				<div class="padding">
 					<h5 class="card-title">Andaman Tour Packages</h5>
-					<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+					<p class="card-text"><span class="keyboard_arrow_right t2">></span>Port Blair<span class="keyboard_arrow_right t2">></span>HaveLock<span class="keyboard_arrow_right t2">></span>Neil Isaland</p>
 					<button class="mdc-button itour2" >
 						<span class="mdc-button__label">VIEW MORE</span>
 					</button>
@@ -259,7 +302,7 @@
 				</div>
 				<div class="padding">
 					<h5 class="card-title">Andaman Tour Packages</h5>
-					<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+					<p class="card-text"><span class="keyboard_arrow_right t3">></span>Port Blair<span class="keyboard_arrow_right t3">></span>HaveLock<span class="keyboard_arrow_right t3">></span>Neil Isaland</p>
 					<button class="mdc-button itour3" >
 						<span class="mdc-button__label">VIEW MORE</span>
 					</button>
@@ -280,9 +323,8 @@
 					<img class="mdc-image-list__image" src="images/c4.PNG" width="200" height="150">
 				</div>
 				<div class="padding">
-
 					<h5 class="card-title">Andaman Tour Packages</h5>
-					<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+					<p class="card-text"><span class="keyboard_arrow_right t4">></span>Port Blair<span class="keyboard_arrow_right t4">></span>HaveLock<span class="keyboard_arrow_right t4">></span>Neil Isaland</p>
 					<button class="mdc-button itour4">
 						<span class="mdc-button__label">VIEW MORE</span>
 					</button>
@@ -298,7 +340,7 @@
 				</div>
 				<div class="space">
 					<h5 class="card-title">Andaman Tour Packages</h5>
-					<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+					<p class="card-text"><span class="keyboard_arrow_right t5">></span>Port Blair<span class="keyboard_arrow_right t5">></span>HaveLock<span class="keyboard_arrow_right t5">></span>Neil Isaland</p>
 					<button class="mdc-button itour5" >
 						<span class="mdc-button__label">VIEW MORE</span>
 					</button>
@@ -313,7 +355,7 @@
 				<div class="padding">
 
 					<h5 class="card-title">Andaman Tour Packages</h5>
-					<p class="card-text"><span>></span>Port Blair<span>></span>HaveLock<span>></span>Neil Isaland</p>
+					<p class="card-text"><span class="keyboard_arrow_right t6">></span>Port Blair<span class="keyboard_arrow_right t6">></span>HaveLock<span class="keyboard_arrow_right t6">></span>Neil Isaland</p>
 					<button class="mdc-button itour6" >
 						<span class="mdc-button__label">VIEW MORE</span>
 					</button>
@@ -477,14 +519,49 @@
 		</div>
 	</div>
 </div>
-<div class="mdc-layout-grid">
-	<div class="mdc-layout-grid__inner">
-		<div class="mdc-layout-grid__cell--span-4"></div>
-		<div class="mdc-layout-grid__cell--span-8">
-			<h1 class="mdc-typography--headline4">Recent Traveller <span>REVIEWS</span></h1>
+<div class="mdc-layout-grid backimage">
+	<div class="mdc-layout-grid__inner ">
+		<div class="mdc-layout-grid__cell--span-4">
+		</div>
+		<div class="mdc-layout-grid__cell--span-4 ">
+			<h1 class="mdc-typography--headline4 recent">Recent Traveller <span class="review">REVIEWS</span></h1>
+		</div>
+		<div class="mdc-layout-grid__cell--span-4">
 		</div>
 	</div>
+	<div class="mdc-layout-grid__inner ">
+		<div class="mdc-layout-grid__cell--span-5">
+		</div>
+		<div class="mdc-layout-grid__cell--span-2">
+			<div class="mdc-image-list__image-aspect-container">
+				<img class="mdc-image-list__image" src="images/29.jpg" width="200" height="100" style="border-radius: 210px; border:  5px solid #ec7e50;">
+			</div>
+		</div>
+		<div class="mdc-layout-grid__cell--span-5">
+		</div>
+	</div>
+
+<div class="mdc-layout-grid__inner ">
+	<div class="mdc-layout-grid__cell--span-5">
+	</div>
+	<div class="mdc-layout-grid__cell--span-2">
+		<h2 class="john"><b>JOHN DOE</b></h2>
+	</div>
+	<div class="mdc-layout-grid__cell--span-5">
+	</div>
 </div>
+<div class="mdc-layout-grid__inner ">
+	<div class="mdc-layout-grid__cell--span-5">
+	</div>
+	<div class="mdc-layout-grid__cell--span-2">
+		<h4 class="direct">Director,We Care Holidays</h4></br>
+	<!-- 	<p>Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere. </p> -->
+	</div>
+	<div class="mdc-layout-grid__cell--span-5">
+	</div>
+</div>
+</div>
+
 <div class="mdc-layout-grid footer">
 	<div class="mdc-layout-grid__inner">
 		<div class="mdc-layout-grid__cell--span-2">
@@ -501,8 +578,8 @@
 				</div>
 				<div class="mdc-layout-grid__cell--span-10">
 					<p class="footer_about_p">king trips Pvt Ltd Plot NO - 84,
-					Pocket C-7,Sector -7,Rohini,
-				    New Delhi - 110085</p>
+						Pocket C-7,Sector -7,Rohini,
+					New Delhi - 110085</p>
 				</div>	
 			</div>	
 
@@ -654,5 +731,14 @@
 	$('.carousel').carousel({
     interval: 2000
 })</script> -->
+<script> 
+	// mdc.menu.MDCMenu.attachTo(document.querySelector('.mdc-menu'));
+	// menu.open=true;
+	mdc.select.MDCSelect.attachTo(document.querySelector('.mdc-select'));
+	select.listen('MDCSelect:change', () => {
+		alert(`Selected option at index ${select.selectedIndex} with value "${select.value}"`);
+	});
+</script>
+
 </body>
 </html>
