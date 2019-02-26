@@ -32,7 +32,8 @@ button{
 }
 
 .call{
-  margin-left: 123px;
+  /*margin-left: 123px;*/
+  float: left;
 }
 .call1{
   margin-top: 50px;
@@ -44,18 +45,27 @@ button{
 .sign{
   background-color: #ebaf41;
   background-image: linear-gradient(#f5e67b,#e6a02a);
-  margin-right:  0px;
+  /*margin-right:  0px;
   padding: 10px;
-  margin-left: 150px;
+  margin-left: 150px;*/
+  /*float: right;*/
 
+
+}
+.sr{
+  float: right;
+  margin-right: 50px;
+  padding: 20px;
+}
+.r{
+  padding: 10px;
 }
 .sign1{
   background-color: #ebaf41;
   background-image: linear-gradient(#f5e67b,#e6a02a);
-  margin-right: 20px;
+  /*margin-right: 20px;
   padding: 12px;
-  border-radius: 0;
-
+  border-radius: 0;*/
 }
 .sign2{
   background-image: linear-gradient(#f5e67b,#e6a02a);
@@ -67,9 +77,9 @@ button{
 
   background-color:  #ee8551;
   background-image: linear-gradient(#ee8551,#e6573f);
-  margin: 0;
+  /*margin: 0;
   float: right
-  padding: 10px;
+  padding: 10px;*/
 }
 .sec1{
   background-color: #32468f;
@@ -94,11 +104,13 @@ button{
 }
 .mdc-button:not(:disabled) {
   color: white;
-  color: lightgray;
+  /*color: lightgray;*/
 }
 .sec3{
   background-color: #ffffff;
-
+}
+.best{
+  text-align: center;
 }
 .l1{
   margin-top: 50px;
@@ -322,9 +334,9 @@ h2{
   margin: 20px;
 }
 
-.mdc-button:not(:disabled) {
+/*.mdc-button:not(:disabled) {
   color: #fff !important;
-}
+}*/
 .card-title{
 
   font-size: 20px;
@@ -421,6 +433,9 @@ h2{
 }
 .backimage{
   background-image: url(../images/s4.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+
   /*height: 800px;*/
 }
 .recent{
@@ -437,11 +452,40 @@ h2{
 .direct{
   color: #aeaead;
 }
+.b1{
+ margin: 50px;
+}
+/*.andaman {
+    padding-bottom: calc(100% / 1.8);
+}*/
 /*.mdc-image-list__image{
   width: 100%;
   height: 50px;
-}*/
+  }*/
 /*.mdc-select__native-control{
   width: 20%;
   height: -4px;
 }*/
+.mdc-image-list__image-aspect-container .mdc-image-list__image {
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;*/
+   /* height: 68%;*/
+   /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+.andaman {
+    padding-bottom: calc(100% / 1.5);
+    height: 70%;
+}
+./*i1{
+  padding: 20px;
+}*/
+.mdc-select__native-control, .mdc-select__selected-text {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
